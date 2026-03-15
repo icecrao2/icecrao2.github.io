@@ -1,8 +1,8 @@
-# Orbit Shift Privacy Policy
+# Orbit Core Shift Privacy Policy
 
 Last updated: 2026-03-15
 
-Orbit Shift ("the App") may process limited information to provide gameplay features and advertising functions.
+Orbit Core ("the App") may process limited information to provide gameplay features and advertising functions.
 
 ## 1. Information We May Collect
 - Run record data
