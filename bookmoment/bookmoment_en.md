@@ -1,10 +1,8 @@
 # BookMoment Privacy Policy
 
-Effective date: May 10, 2026
+Effective date: August 10, 2026
 
-App: BookMoment
-
-Developer/Operator: Moonworks
+Operator: Moonworks
 
 Privacy contact: icecrao2@icloud.com
 
@@ -23,6 +21,7 @@ The App may store the following data on your device or in your personal iCloud s
 - Search settings and recent searches: search terms, ISBNs, barcodes, selected search mode, or configured proxy URL
 - App state: active reading timer, reading-count widget snapshot, and notification preferences
 - Analytics and notification metadata: in builds where Firebase is enabled, the App may process event names such as app opened, book added, memo saved, timer started or paused, limited numeric/status parameters, app instance identifiers, notification tokens, and notification received/opened metadata.
+- Advertising and consent metadata: when you choose to watch a rewarded ad, Google Mobile Ads and its User Messaging Platform (UMP) may process IP address, device and app information, advertising identifiers when available, approximate location derived from IP, diagnostics, consent choices, ad impressions, interactions, and reward completion. The App does not send your reading library, notes, reviews, photos, or book-search terms to AdMob.
 
 If you type names, contact details, sensitive information, or other personal information into free-form notes, reviews, or photo annotations, that content becomes part of your App data. The App does not require you to enter that information.
 
@@ -36,8 +35,9 @@ The App uses data only to:
 - Extract OCR quotes from images you choose
 - Create share images, PDFs, and system share flows you initiate
 - Understand app stability, feature usage, and push notification operation through limited analytics
+- Offer an optional rewarded ad that unlocks book search for a limited time, confirm completion of the reward, and manage advertising consent and privacy choices
 
-The App does not use your reading records or notes for targeted advertising, data broker sales, or cross-app tracking.
+The operator does not use your reading records or notes to personalize ads, sell data to data brokers, or perform cross-app tracking. Google may serve personalized or non-personalized ads according to your consent, region, device settings, and Google's policies.
 
 ## 3. Storage and Sync
 
@@ -51,7 +51,8 @@ The following services may process data to provide App features:
 
 - Apple iCloud, iCloud Drive, and CloudKit: file or record sync across devices signed in to your iCloud account
 - Firebase Analytics: app events and limited usage metadata
-- Firebase Cloud Messaging, Apple Push Notification service, and Android notification services: remote notifications and notification tokens
+- Google AdMob and Google UMP: opt-in rewarded ads, ad delivery and measurement, fraud prevention, consent collection, and privacy choices. See [Google's Privacy Policy](https://policies.google.com/privacy) and [how Google uses information from apps that use its services](https://policies.google.com/technologies/partner-sites).
+- Firebase Cloud Messaging and Apple Push Notification service: remote notifications and notification tokens
 - Google Books, Open Library, Apple Books/iTunes Search, Kakao Book Search, the National Library of Korea API, or a book-search proxy you configure: book lookup using the search term, ISBN, or barcode you submit
 - Apple or Google in-app review flows: handled by the relevant platform when you choose to review the App
 
@@ -74,7 +75,7 @@ When you create a share image, PDF, or system share-sheet export, the selected c
 
 Reading library data is kept until you delete it, delete the App data, or remove the relevant local files or iCloud Drive `BookReportLibrary` folder. Recent searches can be deleted individually or cleared in the App. Deleting the App removes local app data according to the operating system's rules, but iCloud Drive or iCloud backup copies may need to be managed separately in iCloud settings or the Files app.
 
-Firebase Analytics and Messaging data is handled under Google/Firebase retention policies. Data handled by store review, iCloud, or push notification infrastructure follows the relevant platform's policies.
+Firebase Analytics, Messaging, AdMob, and UMP data is handled under Google/Firebase retention policies. Data handled by store review, iCloud, or push notification infrastructure follows the relevant platform's policies.
 
 ## 8. Security
 
@@ -82,11 +83,13 @@ The App keeps the primary reading library in your device storage or personal iCl
 
 ## 9. Children's Privacy
 
-The App does not provide child-directed account creation, profile creation, or behavioral advertising features. If a parent or guardian allows a child to use the App, the parent or guardian should manage the reading records and note content entered on that device.
+The App is not directed to children and does not provide child-directed account or profile creation. Optional rewarded ads may be available subject to regional consent and platform settings. If a parent or guardian allows a child to use the App, they should supervise ad choices and manage the reading records and note content entered on that device.
 
 ## 10. Your Choices and Rights
 
 You can access, correct, and delete data through App editing/deletion features, device app-data controls, the Files app, or iCloud settings. For privacy questions or requests to access, correct, delete, or restrict processing of data, contact icecrao2@icloud.com.
+
+The first three book searches are available without an ad, and manual book entry remains available without watching an ad. You may remove rewarded ads through the existing non-consumable purchase. Where required, the App shows a privacy-options entry point for reviewing advertising choices; you can also change applicable advertising and privacy settings in your device settings.
 
 ## 11. Changes
 

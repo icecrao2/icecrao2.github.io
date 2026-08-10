@@ -1,10 +1,8 @@
 # Chính Sách Quyền Riêng Tư của BookMoment
 
-Ngày có hiệu lực: 10 tháng 5 năm 2026
+Ngày có hiệu lực: 10 tháng 8 năm 2026
 
-Ứng dụng: BookMoment
-
-Nhà phát triển/đơn vị vận hành: Moonworks
+Đơn vị vận hành: Moonworks
 
 Liên hệ về quyền riêng tư: icecrao2@icloud.com
 
@@ -23,6 +21,7 @@ Chính sách này giải thích cách BookMoment ("Ứng dụng") xử lý dữ 
 - Cài đặt tìm kiếm và tìm kiếm gần đây: từ khóa tìm kiếm, ISBN, mã vạch, chế độ tìm kiếm đã chọn hoặc URL proxy đã cấu hình
 - Trạng thái ứng dụng: bộ đếm thời gian đang hoạt động, ảnh chụp dữ liệu cho widget số sách đọc và tùy chọn thông báo
 - Siêu dữ liệu phân tích và thông báo: trong các bản dựng có bật Firebase, Ứng dụng có thể xử lý tên sự kiện như mở ứng dụng, thêm sách, lưu ghi chú, bắt đầu hoặc tạm dừng bộ đếm thời gian, các tham số số/trạng thái giới hạn, mã định danh phiên bản ứng dụng, mã thông báo thông báo và siêu dữ liệu thông báo đã nhận/đã mở.
+- Siêu dữ liệu quảng cáo và sự đồng ý: khi bạn chọn xem quảng cáo có thưởng, Google Mobile Ads và User Messaging Platform (UMP) có thể xử lý địa chỉ IP, thông tin thiết bị và ứng dụng, mã nhận dạng quảng cáo khi có, vị trí gần đúng suy ra từ IP, dữ liệu chẩn đoán, lựa chọn đồng ý, lượt hiển thị, tương tác và việc hoàn thành phần thưởng. Ứng dụng không gửi thư viện đọc, ghi chú, cảm nhận, ảnh hoặc từ khóa tìm kiếm sách của bạn cho AdMob.
 
 Nếu bạn nhập tên, thông tin liên hệ, thông tin nhạy cảm hoặc thông tin cá nhân khác vào ghi chú, cảm nhận hoặc chú thích ảnh dạng tự do, nội dung đó sẽ trở thành một phần dữ liệu trong Ứng dụng. Ứng dụng không yêu cầu bạn nhập những thông tin đó.
 
@@ -36,8 +35,9 @@ Nếu bạn nhập tên, thông tin liên hệ, thông tin nhạy cảm hoặc t
 - Trích xuất trích dẫn OCR từ ảnh bạn chọn
 - Tạo ảnh chia sẻ, PDF và luồng chia sẻ hệ thống do bạn khởi tạo
 - Hiểu độ ổn định của ứng dụng, mức sử dụng tính năng và hoạt động của thông báo đẩy thông qua phân tích giới hạn
+- Cung cấp quảng cáo có thưởng tùy chọn để mở tìm kiếm sách trong thời gian giới hạn, xác nhận hoàn thành phần thưởng và quản lý sự đồng ý cùng lựa chọn quyền riêng tư quảng cáo
 
-Ứng dụng không sử dụng nhật ký đọc hoặc ghi chú của bạn cho quảng cáo nhắm mục tiêu, bán dữ liệu cho nhà môi giới dữ liệu hoặc theo dõi chéo ứng dụng.
+Đơn vị vận hành không dùng nhật ký đọc hoặc ghi chú của bạn để cá nhân hóa quảng cáo, bán dữ liệu cho nhà môi giới hoặc theo dõi chéo ứng dụng. Google có thể cung cấp quảng cáo được cá nhân hóa hoặc không cá nhân hóa theo sự đồng ý, khu vực, cài đặt thiết bị và chính sách của Google.
 
 ## 3. Lưu trữ và đồng bộ
 
@@ -51,7 +51,8 @@ Các dịch vụ sau có thể xử lý dữ liệu để cung cấp tính năng
 
 - Apple iCloud, iCloud Drive và CloudKit: đồng bộ tệp hoặc bản ghi giữa các thiết bị đăng nhập cùng tài khoản iCloud
 - Firebase Analytics: sự kiện ứng dụng và siêu dữ liệu sử dụng giới hạn
-- Firebase Cloud Messaging, Apple Push Notification service và dịch vụ thông báo Android: thông báo từ xa và mã thông báo thông báo
+- Google AdMob và Google UMP: quảng cáo có thưởng tùy chọn, phân phối và đo lường quảng cáo, phòng chống gian lận, thu thập sự đồng ý và lựa chọn quyền riêng tư. Xem [Chính sách quyền riêng tư của Google](https://policies.google.com/privacy) và [cách Google dùng thông tin từ ứng dụng sử dụng dịch vụ của họ](https://policies.google.com/technologies/partner-sites).
+- Firebase Cloud Messaging và Apple Push Notification service: thông báo từ xa và mã thông báo thông báo
 - Google Books, Open Library, Apple Books/iTunes Search, Kakao Book Search, API Thư viện Quốc gia Hàn Quốc hoặc proxy tìm kiếm sách do bạn cấu hình: tra cứu sách bằng từ khóa, ISBN hoặc mã vạch bạn gửi
 - Luồng đánh giá trong ứng dụng của Apple hoặc Google: do nền tảng tương ứng xử lý khi bạn chọn đánh giá Ứng dụng
 
@@ -74,7 +75,7 @@ Khi bạn tạo ảnh chia sẻ, PDF hoặc dùng bảng chia sẻ của hệ th
 
 Dữ liệu thư viện đọc được giữ cho đến khi bạn xóa dữ liệu đó, xóa dữ liệu ứng dụng hoặc xóa các tệp cục bộ hay thư mục `BookReportLibrary` trong iCloud Drive. Tìm kiếm gần đây có thể được xóa từng mục hoặc xóa tất cả trong Ứng dụng. Xóa Ứng dụng sẽ xóa dữ liệu ứng dụng cục bộ theo quy tắc của hệ điều hành, nhưng các bản sao trong iCloud Drive hoặc bản sao lưu iCloud có thể cần được quản lý riêng trong cài đặt iCloud hoặc ứng dụng Files.
 
-Dữ liệu Firebase Analytics và Messaging được xử lý theo chính sách lưu giữ của Google/Firebase. Dữ liệu được xử lý bởi đánh giá cửa hàng, iCloud hoặc hạ tầng thông báo đẩy tuân theo chính sách của nền tảng tương ứng.
+Dữ liệu Firebase Analytics, Messaging, AdMob và UMP được xử lý theo chính sách lưu giữ của Google/Firebase. Dữ liệu được xử lý bởi đánh giá cửa hàng, iCloud hoặc hạ tầng thông báo đẩy tuân theo chính sách của nền tảng tương ứng.
 
 ## 8. Bảo mật
 
@@ -82,11 +83,13 @@ Dữ liệu Firebase Analytics và Messaging được xử lý theo chính sách
 
 ## 9. Quyền riêng tư của trẻ em
 
-Ứng dụng không cung cấp tính năng tạo tài khoản, tạo hồ sơ hoặc quảng cáo hành vi hướng đến trẻ em. Nếu cha mẹ hoặc người giám hộ cho phép trẻ dùng Ứng dụng, cha mẹ hoặc người giám hộ nên quản lý nhật ký đọc và nội dung ghi chú được nhập trên thiết bị đó.
+Ứng dụng không hướng đến trẻ em và không cung cấp tính năng tạo tài khoản hoặc hồ sơ dành cho trẻ em. Quảng cáo có thưởng tùy chọn có thể xuất hiện tùy theo yêu cầu đồng ý của khu vực và cài đặt nền tảng. Nếu cha mẹ hoặc người giám hộ cho phép trẻ dùng Ứng dụng, họ nên giám sát lựa chọn quảng cáo và quản lý nhật ký đọc cùng nội dung ghi chú trên thiết bị.
 
 ## 10. Lựa chọn và quyền của bạn
 
 Bạn có thể truy cập, chỉnh sửa và xóa dữ liệu qua tính năng chỉnh sửa/xóa trong Ứng dụng, phần quản lý dữ liệu ứng dụng của thiết bị, ứng dụng Files hoặc cài đặt iCloud. Với câu hỏi hoặc yêu cầu về quyền riêng tư như truy cập, chỉnh sửa, xóa hoặc hạn chế xử lý dữ liệu, hãy liên hệ icecrao2@icloud.com.
+
+Ba lần tìm kiếm sách đầu tiên được sử dụng không cần quảng cáo và nhập sách thủ công luôn khả dụng mà không cần xem quảng cáo. Bạn có thể xóa quảng cáo bằng giao dịch mua không tiêu hao hiện có. Khi được yêu cầu, Ứng dụng hiển thị lối vào tùy chọn quyền riêng tư quảng cáo; bạn cũng có thể thay đổi các cài đặt áp dụng trong phần cài đặt thiết bị.
 
 ## 11. Thay đổi
 

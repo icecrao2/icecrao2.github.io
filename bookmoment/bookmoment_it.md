@@ -1,10 +1,8 @@
 # Informativa sulla Privacy di BookMoment
 
-Data di efficacia: 10 maggio 2026
+Data di efficacia: 10 agosto 2026
 
-App: BookMoment
-
-Sviluppatore/operatore: Moonworks
+Titolare/operatore: Moonworks
 
 Contatto privacy: icecrao2@icloud.com
 
@@ -23,6 +21,7 @@ L'App può salvare i seguenti dati sul tuo dispositivo o nel tuo spazio iCloud p
 - Impostazioni di ricerca e ricerche recenti: termini di ricerca, ISBN, codici a barre, modalità di ricerca selezionata o URL proxy configurato
 - Stato dell'app: timer di lettura attivo, snapshot per widget del conteggio letture e preferenze di notifica
 - Metadati di analisi e notifica: nelle build con Firebase abilitato, l'App può trattare nomi evento come apertura app, aggiunta libro, salvataggio nota, avvio o pausa timer, parametri numerici/di stato limitati, identificativi dell'istanza app, token di notifica e metadati di ricezione/apertura delle notifiche.
+- Metadati pubblicitari e di consenso: quando scegli di guardare un annuncio con premio, Google Mobile Ads e User Messaging Platform (UMP) possono trattare indirizzo IP, informazioni su dispositivo e app, identificatori pubblicitari se disponibili, posizione approssimativa derivata dall'IP, diagnostica, scelte di consenso, impressioni, interazioni e completamento del premio. L'App non invia ad AdMob la tua libreria, note, recensioni, foto o termini di ricerca dei libri.
 
 Se inserisci nomi, recapiti, informazioni sensibili o altri dati personali in campi liberi di note, recensioni o annotazioni fotografiche, tali contenuti diventano parte dei dati dell'App. L'App non richiede l'inserimento di tali informazioni.
 
@@ -36,8 +35,9 @@ L'App usa i dati solo per:
 - Estrarre citazioni OCR dalle immagini che scegli
 - Creare immagini di condivisione, PDF e flussi di condivisione di sistema avviati da te
 - Comprendere stabilità dell'app, uso delle funzioni e funzionamento delle notifiche push tramite analisi limitate
+- Offrire un annuncio facoltativo con premio che sblocca temporaneamente la ricerca libri, confermare il completamento del premio e gestire consenso e opzioni privacy pubblicitarie
 
-L'App non usa i tuoi registri di lettura o le tue note per pubblicità mirata, vendita a broker di dati o tracciamento tra app.
+Il gestore non usa i tuoi registri di lettura o le tue note per personalizzare gli annunci, vendere dati a broker o effettuare tracciamento tra app. Google può mostrare annunci personalizzati o non personalizzati in base al consenso, all'area geografica, alle impostazioni del dispositivo e alle proprie norme.
 
 ## 3. Archiviazione e sincronizzazione
 
@@ -51,7 +51,8 @@ I seguenti servizi possono trattare dati per fornire funzioni dell'App:
 
 - Apple iCloud, iCloud Drive e CloudKit: sincronizzazione di file o record tra dispositivi connessi al tuo account iCloud
 - Firebase Analytics: eventi dell'app e metadati di utilizzo limitati
-- Firebase Cloud Messaging, Apple Push Notification service e servizi di notifica Android: notifiche remote e token di notifica
+- Google AdMob e Google UMP: annunci facoltativi con premio, pubblicazione e misurazione degli annunci, prevenzione delle frodi, raccolta del consenso e opzioni privacy. Consulta l'[Informativa sulla privacy di Google](https://policies.google.com/privacy) e [come Google usa le informazioni delle app che utilizzano i suoi servizi](https://policies.google.com/technologies/partner-sites).
+- Firebase Cloud Messaging e Apple Push Notification service: notifiche remote e token di notifica
 - Google Books, Open Library, Apple Books/iTunes Search, Kakao Book Search, API della Biblioteca Nazionale di Corea o un proxy di ricerca libri configurato da te: ricerca libri usando termine di ricerca, ISBN o codice a barre inviato da te
 - Flussi di recensione in-app Apple o Google: gestiti dalla piattaforma pertinente quando scegli di recensire l'App
 
@@ -74,7 +75,7 @@ Quando crei un'immagine di condivisione, un PDF o usi il foglio di condivisione 
 
 I dati della libreria di lettura sono conservati finché non li cancelli, non elimini i dati dell'App o non rimuovi i relativi file locali o la cartella `BookReportLibrary` in iCloud Drive. Le ricerche recenti possono essere eliminate singolarmente o cancellate tutte nell'App. Eliminare l'App rimuove i dati locali secondo le regole del sistema operativo, ma eventuali copie in iCloud Drive o backup iCloud potrebbero dover essere gestite separatamente nelle impostazioni iCloud o nell'app File.
 
-I dati Firebase Analytics e Messaging sono gestiti secondo le politiche di conservazione Google/Firebase. I dati trattati dai flussi di recensione store, iCloud o infrastrutture di notifiche push seguono le politiche della piattaforma pertinente.
+I dati Firebase Analytics, Messaging, AdMob e UMP sono gestiti secondo le politiche di conservazione Google/Firebase. I dati trattati dai flussi di recensione store, iCloud o infrastrutture di notifiche push seguono le politiche della piattaforma pertinente.
 
 ## 8. Sicurezza
 
@@ -82,11 +83,13 @@ L'App mantiene, dove possibile, la libreria di lettura principale nella memoria 
 
 ## 9. Privacy dei minori
 
-L'App non offre creazione di account, creazione di profili o pubblicità comportamentale rivolte ai minori. Se un genitore o tutore consente a un minore di usare l'App, il genitore o tutore deve gestire i registri di lettura e i contenuti delle note inseriti su quel dispositivo.
+L'App non è destinata ai minori e non offre creazione di account o profili rivolta ai minori. Gli annunci facoltativi con premio possono essere disponibili in base al consenso regionale e alle impostazioni della piattaforma. Se un genitore o tutore consente a un minore di usare l'App, dovrebbe supervisionare le scelte pubblicitarie e gestire registri di lettura e note inseriti sul dispositivo.
 
 ## 10. Scelte e diritti
 
-Puoi accedere, correggere ed eliminare i dati tramite le funzioni di modifica/eliminazione dell'App, i controlli dati app del dispositivo, l'app File o le impostazioni iCloud. Per domande privacy o richieste di accesso, rettifica, cancellazione o limitazione del trattamento, contatta icecrao2@icloud.com.
+Puoi accedere, correggere ed eliminare i dati tramite le funzioni di modifica/eliminazione dell'App, i controlli dati app del dispositivo, l'app File o le impostazioni iCloud. Per domande privacy o richieste di accesso, rettifica, cancellazione o limitazione del trattamento, scrivi a icecrao2@icloud.com.
+
+Le prime tre ricerche di libri sono disponibili senza annunci e l'inserimento manuale rimane sempre disponibile senza guardare un annuncio. Puoi rimuovere gli annunci tramite l'acquisto non consumabile esistente. Dove richiesto, l'App mostra un accesso alle opzioni privacy pubblicitarie; puoi anche modificare le impostazioni applicabili nel dispositivo.
 
 ## 11. Modifiche
 

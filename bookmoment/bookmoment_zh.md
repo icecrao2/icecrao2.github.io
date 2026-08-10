@@ -1,10 +1,8 @@
 # BookMoment 隐私政策
 
-生效日期：2026年5月10日
+生效日期：2026年8月10日
 
-应用名称：BookMoment
-
-开发者/运营者：Moonworks
+运营者：Moonworks
 
 隐私联系渠道：icecrao2@icloud.com
 
@@ -23,6 +21,7 @@
 - 搜索设置和最近搜索：搜索词、ISBN、条码、选择的搜索模式或配置的代理 URL
 - 应用状态：当前阅读计时器、阅读数量小组件快照和通知偏好
 - 分析和通知元数据：在启用 Firebase 的构建版本中，本应用可能处理应用打开、添加图书、保存笔记、计时器开始或暂停等事件名称，有限的数值/状态参数，应用实例标识符，通知令牌，以及通知接收/打开元数据。
+- 广告与同意元数据：当你选择观看激励广告时，Google Mobile Ads 和 User Messaging Platform（UMP）可能处理 IP 地址、设备和应用信息、可用时的广告标识符、由 IP 推测的大致位置、诊断信息、同意选择、广告展示与互动，以及奖励完成情况。本应用不会将你的阅读资料、笔记、书评、照片或图书搜索词发送给 AdMob。
 
 如果你在自由输入的笔记、书评或图片注释中输入姓名、联系方式、敏感内容或其他个人信息，这些内容也会成为你的应用数据。本应用不会要求你必须输入这些信息。
 
@@ -36,8 +35,9 @@
 - 从你选择的图片中提取 OCR 摘录
 - 提供由你主动生成的分享图片、PDF 和系统分享流程
 - 通过有限的分析了解应用稳定性、功能使用情况和推送通知运行情况
+- 提供可选的激励广告以限时解锁图书搜索、确认奖励完成情况，并管理广告同意和隐私选择
 
-本应用不会将你的阅读记录或笔记用于定向广告、数据经纪销售或跨应用跟踪。
+运营者不会使用你的阅读记录或笔记进行广告个性化、向数据经纪商出售数据或跨应用跟踪。Google 可能依据你的同意、所在地区、设备设置和 Google 政策提供个性化或非个性化广告。
 
 ## 3. 存储和同步
 
@@ -51,7 +51,8 @@
 
 - Apple iCloud、iCloud Drive 和 CloudKit：在登录同一 iCloud 账号的设备之间同步文件或记录
 - Firebase Analytics：应用事件和有限的使用元数据
-- Firebase Cloud Messaging、Apple Push Notification service 和 Android 通知服务：远程通知和通知令牌
+- Google AdMob 和 Google UMP：可选激励广告、广告投放与衡量、防止欺诈、收集同意和提供隐私选项。请参阅 [Google 隐私权政策](https://policies.google.com/privacy)和[使用 Google 服务的应用中的信息使用方式](https://policies.google.com/technologies/partner-sites)。
+- Firebase Cloud Messaging 和 Apple Push Notification service：远程通知和通知令牌
 - Google Books、Open Library、Apple Books/iTunes Search、Kakao Book Search、韩国国立中央图书馆 API，或你配置的图书搜索代理：使用你提交的搜索词、ISBN 或条码查询图书
 - Apple 或 Google 应用内评价流程：当你选择评价本应用时由相应平台处理
 
@@ -74,7 +75,7 @@
 
 阅读资料会保留到你删除它、删除应用数据，或移除相关本地文件/iCloud Drive 中的 `BookReportLibrary` 文件夹为止。最近搜索可以在应用内逐条删除或全部清除。删除本应用会按照操作系统规则移除本地应用数据，但 iCloud Drive 或 iCloud 备份中的副本可能需要你在 iCloud 设置或文件 App 中另行管理。
 
-Firebase Analytics 和 Messaging 数据按照 Google/Firebase 的保留政策处理。应用商店评价、iCloud 或推送通知基础设施处理的数据遵循相应平台的政策。
+Firebase Analytics、Messaging、AdMob 和 UMP 数据按照 Google/Firebase 的保留政策处理。应用商店评价、iCloud 或推送通知基础设施处理的数据遵循相应平台的政策。
 
 ## 8. 安全
 
@@ -82,11 +83,13 @@ Firebase Analytics 和 Messaging 数据按照 Google/Firebase 的保留政策处
 
 ## 9. 儿童隐私
 
-本应用不提供面向儿童的账号创建、个人资料创建或行为广告功能。如果父母或监护人允许儿童使用本应用，父母或监护人应管理该设备上输入的阅读记录和笔记内容。
+本应用并非面向儿童，也不提供面向儿童的账号或个人资料创建功能。可选激励广告可能会依据地区同意要求和平台设置提供。如果父母或监护人允许儿童使用本应用，应监督广告选择并管理该设备上输入的阅读记录和笔记内容。
 
 ## 10. 你的选择和权利
 
 你可以通过应用内编辑/删除功能、设备应用数据管理、文件 App 或 iCloud 设置访问、更正和删除数据。如有隐私问题，或希望请求访问、更正、删除或限制处理数据，请联系 icecrao2@icloud.com。
+
+前三次图书搜索无需观看广告，手动录入始终无需广告即可使用。你可以通过现有的非消耗型购买移除广告。在有要求的地区，本应用会显示广告隐私选项入口；你也可以在设备设置中更改适用的广告和隐私设置。
 
 ## 11. 变更
 
