@@ -1,61 +1,69 @@
 # Privacy Policy
 
-Routine Checklist - To-Do & Daily Habits (the "App") values your privacy and complies with applicable laws. This policy explains what information is collected, how it is used and stored, and what rights users have.
+- App: Routine Checklist
+- Effective date: 2026-07-31
+- Local copy updated: 2026-10-15
 
-## 1. Information We Collect
-- Login information: user identifier (`uid`) through Firebase Authentication, and email address when provided
-- Service usage information: data entered by the user in the app, such as routines, topics, and check records
-- Health-related information: health or lifestyle-related routines, memos, and check records voluntarily entered by the user (for example exercise, sleep, diet, medication, or weight management)
-- Technical information: minimum device and log information required for crash handling, service operation, and security
+This policy explains the information handled by the App, why it is used, the external services involved, and the choices available to users.
 
-## 2. How Information Is Collected
-- Information directly entered by the user (routines, records, memos, and similar content)
-- Information provided by authentication providers during Google or Apple sign-in
+## 1. User-entered data
 
-## 3. Purposes of Use
-- To identify members and maintain sign-in status
-- To provide routine management features, including saving, viewing, and statistics
-- To store, display, and analyze health or lifestyle-related routines and records
-- To support cross-device sync and data backup through Firebase Firestore
-- To improve service quality, respond to errors, and maintain security
+User-entered routines, activity records, and settings are stored in the App's local storage on the device.
 
-## 4. Storage and Processing Location
-- App data is stored locally on the device first using SQLite.
-- When a user signs in, some data may be synced to Firebase Firestore.
-- Health-related information voluntarily entered by the user may also be stored locally or synced to Firebase Firestore when sign-in is used.
-- Data is retained until the purpose of use has been fulfilled, unless a longer retention period is required by law.
+Routine data or images may be exported through system features and sharing destinations selected by the user and permitted on the device. Image saving and sharing use operating-system features.
 
-## 5. Third-Party Sharing and Processors
-The App uses the following services, and information may be processed under each provider's policies.
-- Google Firebase (Authentication, Firestore)
-- Apple Sign in with Apple (iOS sign-in)
+## 2. Information that may be transmitted
 
-Processing standards for each service follow the relevant provider's privacy policy.  
-The App does not sell user-entered health-related data to third parties.
+- Firebase Analytics: In production builds, the App analyzes app opens, feature use, aggregate counts, and result categories. Custom events do not include user-entered text or individual routine IDs.
+- Firebase Cloud Messaging: An app-instance token and delivery-related information may be processed to deliver operational messages. The FCM SDK handles the token, and in-app diagnostic information is stored on the device.
+- Google Mobile Ads: Advertising IDs, IP addresses, device and app information, ad interactions, and diagnostic information may be processed to show ads in the free version, prevent abuse, and measure ad performance.
+- Apple App Store / Google Play: Store account, transaction, and purchase-status information is processed by the store provider for the one-time purchase and restore flow. The App does not directly collect payment-card details.
 
-## 6. User Rights
-Users may request the following at any time.
-- Access to, correction of, or deletion of their data
-- Account sign-out and unlinking
+The information actually processed may vary based on the device, operating system, region, privacy settings, and SDK behavior.
 
-Requests may be submitted through the contact channel below and will be handled within a reasonable period.
+## 3. Purposes
 
-## 7. Children's Privacy
-The App does not intentionally collect personal information from children when such collection is prohibited or specially protected under applicable law.
+- Provide routine creation, execution, history, statistics, and improvement suggestions
+- Provide reminders, widgets, image saving, and sharing
+- Measure aggregate feature use and improve quality
+- Display and measure ads and prevent abuse
+- Process and restore the one-time purchase
+- Deliver necessary operational messages
 
-## 8. Security Measures
-The App applies reasonable safeguards to protect personal information, including access control, authentication-based access, and protection of data in transit.
+## 4. Retention
 
-## 9. Additional Notice on Health-Related Information
-- The App does not directly read health information from health data platforms such as Health Connect, Google Fit, or Apple Health.
-- However, if a user directly enters health or lifestyle-related content into the App, that information may be processed only for routine management, statistics, synchronization, and backup purposes.
-- If the user does not enter health-related content, the App does not collect such information.
-- Users may request deletion of related information, or remove it directly, through in-app record deletion, sign-out, or account deletion features.
+Local data is retained in app storage. Deleting a routine uses soft deletion to preserve earlier activity records; removing the App removes its local data from that device. If operating-system backups are enabled, data may remain in a backup according to the platform provider's settings and retention periods.
 
-## 10. Policy Changes
-This policy may be updated due to legal or service changes. If there is a material change, notice will be provided through the App or the store listing.
+Information transmitted to external services is retained under each provider's settings, agreements, legal obligations, and privacy policy.
 
-## 11. Contact
-- App Name: Routine Checklist - To-Do & Daily Habits
+## 5. User choices
+
+- Permissions for notifications, photos, and other system features can be changed in operating-system settings.
+- On iOS, a tracking request can be declined when shown and changed later in system settings.
+- On Android, users can reset or delete the advertising ID and use available ad privacy settings.
+- Removing the App deletes local app data from the device, although a platform backup may retain it for a period.
+
+## 6. Third-party services
+
+- Google Firebase Analytics / Firebase Cloud Messaging
+- Google Mobile Ads
+- Apple App Store / Google Play in-app purchases
+- Operating-system notifications, photos, sharing, backups, and permission-based system features
+
+Each provider processes information under its own privacy policy.
+
+## 7. Children's privacy
+
+The App does not intentionally ask children for contact details such as a name or email address. A parent or guardian who becomes aware of a concern involving a child's information may contact us below.
+
+## 8. Security
+
+Local data is stored in the operating system's app storage area. Communications with external services use the protected transport provided by the relevant SDK and operating system. No method of electronic storage or transmission can be guaranteed to be completely secure.
+
+## 9. Changes
+
+This policy may be updated when features, external services, or applicable requirements change. Material changes will be communicated through the App or store listing.
+
+## 10. Contact
+
 - Email: icecrao2@icloud.com
-- Effective Date: 2026-03-21
