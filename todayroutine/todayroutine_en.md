@@ -2,7 +2,7 @@
 
 - App: Routine Checklist
 - Effective date: 2026-07-31
-- Local copy updated: 2026-10-15
+- Local copy updated: 2026-11-21
 
 This policy explains the information handled by the App, why it is used, the external services involved, and the choices available to users.
 
@@ -14,6 +14,7 @@ Routine data or images may be exported through system features and sharing desti
 
 ## 2. Information that may be transmitted
 
+- When you consent to sharing for AI routine planning on iOS, the App sends your goal, conversation and summary, app language, active routine names and repeat schedules, and routine identifiers used in the conversation to OpenAI through Firebase Functions to generate routine suggestions. Drafts and applied routines are stored on your device. The Firebase server verifies signed Apple purchase information and keeps transaction and goal hashes, pass usage status, and request counts to prevent reuse of the same pass. You can create routines manually without consenting to this sharing.
 - Firebase Analytics: In production builds, the App analyzes app opens, feature use, aggregate counts, and result categories. Custom events do not include user-entered text or individual routine IDs.
 - Firebase Cloud Messaging: An app-instance token and delivery-related information may be processed to deliver operational messages. The FCM SDK handles the token, and in-app diagnostic information is stored on the device.
 - Google Mobile Ads: Advertising IDs, IP addresses, device and app information, ad interactions, and diagnostic information may be processed to show ads in the free version, prevent abuse, and measure ad performance.
@@ -46,6 +47,7 @@ Information transmitted to external services is retained under each provider's s
 ## 6. Third-party services
 
 - Google Firebase Analytics / Firebase Cloud Messaging
+- Google Firebase Functions and OpenAI (AI routine planning on iOS)
 - Google Mobile Ads
 - Apple App Store / Google Play in-app purchases
 - Operating-system notifications, photos, sharing, backups, and permission-based system features
