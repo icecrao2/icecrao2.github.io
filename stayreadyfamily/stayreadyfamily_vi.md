@@ -1,6 +1,6 @@
 # Chính Sách Quyền Riêng Tư
 
-Ngày cập nhật gần nhất: 2026-03-21
+Ngày cập nhật gần nhất: 2026-11-21
 
 Stay Ready Family ("Ứng dụng") coi trọng quyền riêng tư của người dùng. Chính sách này giải thích Ứng dụng xử lý những thông tin nào, mục đích sử dụng, và cách liên hệ với chúng tôi.
 
@@ -9,19 +9,19 @@ Stay Ready Family ("Ứng dụng") coi trọng quyền riêng tư của người
 - thông tin thành viên gia đình như tên, mối quan hệ và quốc tịch
 - thông tin giấy tờ như loại giấy tờ, tiêu đề hiển thị, ngày hết hạn, ngày cấp, ghi chú và cài đặt nhắc nhở
 - lịch sử cập nhật ngày hết hạn
-- ảnh giấy tờ do người dùng tự thêm
+- ảnh và PDF giấy tờ do người dùng tự thêm
 
 ## 2. Mục đích sử dụng
-Thông tin chỉ được sử dụng để cung cấp các chức năng chính của Ứng dụng, bao gồm:
+Thông tin được sử dụng để cung cấp các chức năng chính của Ứng dụng, bao gồm:
 - hiển thị trạng thái và mức độ ưu tiên của giấy tờ
 - lên lịch nhắc nhở
 - lưu lịch sử gia hạn
-- lưu ảnh giấy tờ được đính kèm
+- lưu ảnh và PDF giấy tờ được đính kèm
 - mở khóa tính năng trả phí sau khi có giao dịch hợp lệ
 
 ## 3. Lưu trữ cục bộ
 Dữ liệu chính của Ứng dụng được lưu cục bộ trên thiết bị của người dùng.
-Bao gồm thành viên gia đình, giấy tờ, cài đặt nhắc nhở, lịch sử gia hạn và ảnh giấy tờ đính kèm.
+Bao gồm thành viên gia đình, giấy tờ, cài đặt nhắc nhở, lịch sử gia hạn, ảnh và PDF giấy tờ đính kèm.
 
 Hiện tại, Stay Ready Family không yêu cầu tạo tài khoản và không cung cấp đồng bộ đám mây bắt buộc.
 
@@ -48,8 +48,12 @@ Tuy nhiên, một số nhà cung cấp nền tảng có thể xử lý thông ti
 - xử lý mua hàng trong ứng dụng
 - gửi thông báo hệ thống
 
+Nếu bạn bật đồng bộ lịch, ứng dụng sẽ thêm sự kiện về giấy tờ vào lịch trên thiết bị. Sự kiện có thể gồm tên thành viên gia đình, tiêu đề và loại giấy tờ, ngày chuẩn bị gia hạn, ngày cần xử lý gấp và ngày hết hạn. Tài khoản lịch có thể đồng bộ các sự kiện này tùy theo cài đặt.
+
+Ứng dụng iOS và Android sử dụng Firebase Analytics để tìm hiểu cách người dùng sử dụng ứng dụng. Lượt xem màn hình, sự kiện sử dụng tính năng và mã định danh thiết bị hoặc lượt cài đặt ứng dụng có thể được gửi cho Google. Google Analytics có thể ước tính khu vực chung dựa trên địa chỉ IP. Các sự kiện có thể bao gồm mối quan hệ trong gia đình và việc thành viên đó có phải là bạn hay không, loại giấy tờ, việc đã nhập ngày hết hạn hay chưa, số ngày còn lại đến hạn khi gia hạn, cài đặt nhắc nhở, màn hình bắt đầu quy trình mua và kết quả mua. Tên, tiêu đề giấy tờ do bạn nhập, ghi chú và tệp đính kèm không được gửi đến Firebase Analytics.
+
 ## 8. Xóa dữ liệu
-Người dùng có thể trực tiếp xóa thành viên gia đình, giấy tờ, ảnh và dữ liệu liên quan ngay trong Ứng dụng.
+Người dùng có thể trực tiếp xóa thành viên gia đình, giấy tờ, ảnh và PDF đính kèm, cùng dữ liệu liên quan ngay trong Ứng dụng.
 Nếu gỡ cài đặt Ứng dụng, dữ liệu lưu cục bộ trên thiết bị đó có thể bị xóa tùy theo hành vi của thiết bị và nền tảng.
 
 ## 9. Trẻ em
